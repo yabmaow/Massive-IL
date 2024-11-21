@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patuwen Kopi</title>
+    <link rel="stylesheet" href="55.css" />
+
+
+    <script>
+      function loadPage(page) {
+        // Hide all sections
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("product").style.display = "none";
+        document.getElementById("profileTani").style.display = "none";
+        document.getElementById("blog").style.display = "none";
+
+        // Show the selected section
+        document.getElementById(page).style.display = "block";
+      }
+    </script>
+
+
+  </head>
+  <body onload="loadPage('home')">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <h1>PATUWENKOPI</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" onclick="loadPage('home')">Home</a></li>
+        <li><a href="#" onclick="loadPage('about')">About</a></li>
+        <li><a href="#" onclick="loadPage('product')">Product</a></li>
+        <li><a href="#" onclick="loadPage('profileTani')">Profile Tani</a></li>
+        <li><a href="#" onclick="loadPage('blog')">Blog</a></li>
+      </ul>
+      <a href="#" class="contact-btn">Contact</a>
+    </nav>
+
+    <!-- Hero Section as Home Page -->
+    <section id="home">
+      <div class="hero">
+        <img src="Bg foto.png" alt="Coffee Beans" class="hero-image" />
+        <div class="hero-text">
+          <h2>PATUWEN KOPI</h2>
+          <p>nyeruput kopine nyedulur selawase</p>
+        </div>
+      </div>
+
+      <!-- Logo and Farmer Groups Section -->
+      <section class="logo-section">
+        <div class="logo-content">
+          <img src="path/to/logo.png" alt="Patuwen Kopi Logo" class="logo" />
+          <div class="farmer-groups">
+            <span>Kopi Kucur</span>
+            <span>Kopi Dampit</span>
+            <span>Kopi Jengger</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content Section -->
+      <section class="content-section">
+        <div class="content-left">
+          <div class="content-text">
+            <h2>Nikmati Kopi Indonesia</h2>
+            <p>Hasil dari petani lokal terbaik, Dari Petani untuk Pecinta Kopi, Keaslian Cita Rasa Nusantara di Setiap Seduhan</p>
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+          <div class="countdown">
+            <div class="time-block">
+                <div>02</div>
+                <small>Days</small>
+            </div>
+            <div class="time-block">
+                <div>06</div>
+                <small>Hr</small>
+            </div>
+            <div class="time-block">
+                <div>05</div>
+                <small>Mins</small>
+            </div>
+            <div class="time-block">
+                <div>30</div>
+                <small>Sec</small>
+            </div>
+        </div>
+        </div>
+        <div class="content-image">
+          <img src="Rectangle 161124042.png" alt="Kopi Image" />
+        </div>
+      </section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="feature-card">
+    <img src="path/to/icon1.png" alt="Icon 1" class="feature-icon" />
+    <h3>Mengapa Harus Gabung PatuwenKopi?</h3>
+    <p>Bersama Patuwen Kopi mari memperkenalkan cita rasa unik kopi lokal, sekaligus mendukung kesejahteraan petani lokal.</p>
+  </div>
+  <div class="feature-card">
+    <img src="path/to/icon2.png" alt="Icon 2" class="feature-icon" />
+    <h3>Product Lokal Pilihan</h3>
+    <p>Patuwen Kopi menyajikan kopi terbaik dan produk lokal pilihan, mencerminkan kekayaan alam Indonesia. Bersama kami, Anda mendukung kualitas dan keberlanjutan petani Indonesia.</p>
+  </div>
+  <div class="feature-card">
+    <img src="path/to/icon3.png" alt="Icon 3" class="feature-icon" />
+    <h3>Yuks Jelajahi Kualitas Asli Nusantara</h3>
+    <p>Setiap produk lokal menyimpan jejak tangan petani berdedikasi dan warisan tradisi. Patuwen Kopi hadir mempersembahkan kopi terbaik dan produk Nusantara, menyatu dalam kekayaan rasa dan budaya Indonesia.</p>
+  </div>
+</section>
+
+<!-- About Section in Home Page -->
+<section class="about-section">
+  <h2>About Us</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery">
+  <img src="gallery1.jpg" alt="Gallery Image 1" />
+  <img src="gallery2.jpg" alt="Gallery Image 2" />
+  <img src="gallery3.jpg" alt="Gallery Image 3" />
+  <img src="gallery4.jpg" alt="Gallery Image 4" />
+  <img src="gallery5.jpg" alt="Gallery Image 5" />
+  <img src="gallery6.jpg" alt="Gallery Image 6" />
+</section>
+</section>
+
+    </section>
+    
+  
+
+
+
+
+
+
+    
+    <!-- About Section -->
+    <section id="about" style="display: none;">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.</p>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Product Section -->
+    <section id="product" style="display: none;">
+      <h2>Product Tani</h2>
+    <div class="tabs">
+      <span>Beras</span>
+      <span class="active">Kopi</span>
+      <span>Rumah</span>
+    </div>
+    
+    <div class="product-content">
+      <!-- Image and Carousel Dots -->
+      <div class="image-carousel">
+        <img src="image1.jpg" alt="Coffee Product">
+        <div class="carousel-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+
+
+
+
+      
+      <!-- Product Information -->
+      <div class="product-info">
+        <div class="product-header">
+          <span>Robusta</span>
+          <span>Arabica</span>
+        </div>
+        <h3>ROBUSTA</h3>
+        <p>Kopi bubuk pilihan dari biji kopi terbaik yang ditanam di ketinggian 700mdpl.</p>
+        
+        <div class="option-group">
+          <h4>Pilih Jenis Robusta</h4>
+          <button class="option active">Medium</button>
+          <button class="option">Premium</button>
+        </div>
+
+        <div class="option-group">
+          <h4>Pilih Bentuk Robusta</h4>
+          <button class="option active">Bubuk</button>
+          <button class="option">Toples</button>
+          <button class="option">Roastedbean</button>
+        </div>
+
+        <div class="option-group">
+          <h4>Pilih Jumlah Robusta</h4>
+          <button class="option active">200 gr</button>
+          <button class="option">500 gr</button>
+          <button class="option">1 Kg</button>
+        </div>
+
+        <div class="price">
+          <p>Total Pembayaran</p>
+          <h3>Rp 25.000</h3>
+          <button class="buy-btn">Pesan Sekarang</button>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+
+
+
+    <!-- Profile Tani Section -->
+    <section id="profileTani" style="display: none;">
+      <h2>Profile Tani</h2>
+    <div class="tabs">
+      <span>Kopi Dampit</span>
+      <span class="active">Kopi Kucur</span>
+      <span>Kopi Jengger</span>
+    </div>
+    <div class="content">
+      <h3>KOPI KUCUR</h3>
+      <p>Kopi asli Desa Kucur berjenis Robusta yang diambil langsung dari petani kopi lokal, kemudian diolah dan dikemas dengan sempurna oleh anak-anak muda desa. Dari lereng Gunung Kawi.</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="story">
+      <h4>Cerita Kopi Kucur</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <a href="#" class="read-more">Baca lebih lanjut</a>
+    </div>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Coffee Image 1">
+      <img src="image2.jpg" alt="Coffee Image 2">
+      <img src="image3.jpg" alt="Coffee Image 3">
+    </div>
+    </section>
+
+
+
+
+
+    <!-- Blog Section -->
+    <section id="blog" style="display: none;">
+      <h2>Blog</h2>
+      <p>Read our latest articles on coffee culture and farming.</p>
+      <article>
+        <h3>Article Title 1</h3>
+        <p>Summary of the blog article...</p>
+      </article>
+      <article>
+        <h3>Article Title 2</h3>
+        <p>Summary of another blog article...</p>
+      </article>
+    </section>
+
+
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h1>PATUWEN KOPI</h1>
+          <p>&copy;2024 pantucoffee.id ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Products</h4>
+            <p>Kopi Kucur</p>
+            <p>Kopi Dampit</p>
+            <p>Kopi Jengger</p>
+          </div>
+          <div class="footer-column">
+            <h4>Informations</h4>
+            <p>About us</p>
+            <p>Product</p>
+            <p>Profile Kelompok Petani</p>
+            <p>Blog</p>
+          </div>
+          <div class="footer-column">
+            <h4>Contact Us</h4>
+            <p>patuwenkopi@gmail.com</p>
+            <p>Instagram</p>
+            <p>WhatsApp</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
